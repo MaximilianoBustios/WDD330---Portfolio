@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(228, 228, 228);
+    
+}
+main {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 50%;
+    align-items: center;
+    background-color: white;
+}
+form {
+    text-align: center;
+    background-color: rgb(216, 216, 216);
+    width: 40%;
+    border: 1px solid rgb(46, 46, 46);
+    border-radius: 5px;
+}
