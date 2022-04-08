@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(252, 226, 194);
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    font-family: Inter;
+    font-size: 30px;
+
+}
+main {
+    background-color:rgb(252, 243, 231);
+    border: 3px solid rgb(49, 49, 49);
+    border-radius: 5px;
+    height: max-content;
+    width: 50%;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+h3{
+    text-align: center;
+    font-size: 40px;
+}
+
+.todocontainer {
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+#taskList {
+    border: 2px solid rgb(49, 49, 49);
+    border-radius: 2px;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    margin: .5 rem 0 .5rem 0rem;
+}
+
+#remainingtasks {
+    text-align: center;
+}
+
+.buttons {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.todofooter {
+    display: flex;
+    justify-content: center;
+}
+
+#newtask {
+    height: 25px;
+}

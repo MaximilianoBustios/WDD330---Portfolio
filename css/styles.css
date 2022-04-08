@@ -1,0 +1,25 @@
+body {
+    background-color: azure;
+    font-size: 20px;
+    margin-left: 2rem;
+}
+
+ol li a {
+    text-decoration: none;
+    color: rgb(0, 128, 255);
+}
+
+h1, h2, p, li {
+    color: rgb(0, 0, 95);
+}
+
+a:hover{
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 128, 255);
+    font-size: 30px;
+}
+
