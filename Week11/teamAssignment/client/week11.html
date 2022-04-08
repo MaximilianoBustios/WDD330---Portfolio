@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Authentication with JWT
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="body-container">
+      <header>
+        <h1 class="text-center">Authentication Example</h1>
+        <p>To log in correctly you should install and run a json server</p>
+        <nav></nav>
+      </header>
+      <div id="errors" class="errors hidden"></div>
+      <div id="login">
+        <form>
+          <div>
+            <label for="username">Username</label><br>
+            <input
+              type="text"
+              class="form-control"
+              id="username"
+              placeholder="Username"
+              value="user1@email.com"
+            />
+          </div>
+          <div>
+            <label for="password">Password</label><br>
+            <input
+              type="password"
+              class="form-control"
+              id="password"
+              placeholder="Password"
+            />
+          </div>
+          <button type="button" class="btn btn-primary center-block">
+            Login
+          </button>
+        </form>
+        <div id="token-display"></div>
+      </div>
+      <div id="content" class="hidden">
+        <form name="postForm">
+          <div>
+            <label for="title">Title</label><br>
+            <input
+              type="text"
+              class="form-control"
+              name="title"
+              placeholder="title"
+              required
+            />
+          </div>
+          <div>
+            <label for="content">Content</label><br>
+            <input
+              type="text"
+              class="form-control"
+              name="content"
+              placeholder="content"
+              required
+            />
+          </div>
+          <div id="postError"></div>
+  
+          <input type="submit" class="btn" id="createSubmit" />
+        </form>
+        <ul id="list"></ul>
+      </div>
+    </div>
+    <script type="module" src="week11.js"></script>
+  </body>
+</html>
